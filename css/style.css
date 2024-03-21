@@ -1,0 +1,44 @@
+body{
+   
+    font-family: "cormorant upright";
+}
+:root {
+    --bg-main-color:  #323544;
+    --bg-sec-color:  #262936;
+}
+.searchbar{
+    background-image: url(../imgs/banner.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(50, 49, 49);
+  
+}
+
+#today-date{
+    background-color: var(--bg-sec-color);
+}
+ #today{
+    background-color: var(--bg-main-color);
+ }
+
+ .item-footer{
+    background-color: var(--bg-main-color);
+}
+ 
+#tomorrow-date{
+    background-color: var(--bg-main-color);
+}
+
+#tomorrow{
+    background-color: var(--bg-sec-color);
+}
+
+
+#after-tomorrow-date{
+    background-color: var(--bg-sec-color);
+}
+
+#after-tomorrow{
+    background-color: var(--bg-main-color);
+}
